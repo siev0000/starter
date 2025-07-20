@@ -16,10 +16,26 @@
         "@rpgjs/server": "4.3.0",
         "@rpgjs/standalone": "4.3.0",
         "@rpgjs/types": "4.0.5",
-        "socket.io-client": "4.7.4"
+        "cors": "^2.8.5",
+        "express": "^5.1.0",
+        "socket.io-client": "4.7.4",
+        "ws": "^8.18.3"
     },
     "devDependencies": {
         "@rpgjs/compiler": "4.3.0",
         "typescript": "5.3.3"
     }
+}
+{
+  "name": "roots-of-duality-server",
+  "version": "1.0.0",
+  "main": "server/index.js",
+  "scripts": {
+    "start": "node server/index.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "ws": "^8.13.0",
+    "cors": "^2.8.5"
+  }
 }
